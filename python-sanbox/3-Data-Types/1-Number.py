@@ -62,6 +62,16 @@ print(type(c))
 #Note: You cannot convert complex numbers into another number type.
 
 
+#Convert a negative number to a Positive in Python
+#Use the abs() function to convert a negative number to a positive, e.g. abs(number).
+#The abs() function returns the absolute value of a number, which is guaranteed to be positive
+number = -246
+
+result = abs(number)
+print(result)  # 👉️ 246
+
+
+
 
 #Random Number Python does not have a random() function to make a random number, but Python has a built-in module called random that can be used to make random numbers:
 import random
